@@ -1,0 +1,96 @@
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(9, 133, 96);
+    height: auto;
+}
+header h1{
+    color: white;
+}
+#nav-bar{
+    color: rgb(226, 235, 228);
+    font-size: 20px;
+}
+#nav-bar .chat{
+    /* margin-left: -140px; */
+    border-bottom: 3px solid white;
+    color: white;
+}
+#whatsapp{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+#whatsapp div{
+    padding-top: 30px;
+    color: white;
+}
+#whatsapp div span{
+    margin-right: 10px;
+}
+#holders{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 35px; 
+}
+#icon{
+    margin-left: 20px;
+    margin-bottom: -26px;
+}
+ul{
+    padding: 0%;
+    margin-top: 0%;
+}
+.profile{
+    background-color: rgb(246, 243, 243);
+    margin-top: 0px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* background-color: whitesmoke; */
+    border-bottom: 1px solid rgb(202, 198, 198, 0.52);
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+.unread{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(9,210,97);
+    color: white;
+    font-weight: bold;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    /* padding-bottom: 4px; */
+}
+.message{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 8px 10px;
+
+}
+.profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
